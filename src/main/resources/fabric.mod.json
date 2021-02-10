@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "lepton",
+  "version": "${version}",
+  "name": "Lepton-Fabric",
+  "description": "Adding blocks that's should already be in the game by default, such as vanilla stairs, slabs, walls, pressure plates, buttons, and more!",
+  "authors": [
+    "Elturt-Co"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "CC BY-NC-SA 3.0 Unported",
+  "icon": "assets/lepton/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.elturtco.lepton.Lepton"
+    ],
+    "client": [
+      "com.github.elturtco.lepton.LeptonClient"
+    ],
+    "server": []
+  },
+  "mixins": [
+    "lepton.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*"
+  }
+}
