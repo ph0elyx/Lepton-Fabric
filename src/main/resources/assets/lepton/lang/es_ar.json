@@ -8,14 +8,14 @@
 	"block.lepton.polished_diorite_pressure_plate": "Placa de presión de diorita pulida",
 	"block.lepton.polished_granite_pressure_plate": "Placa de presión de granito pulido",
 	
-	"block.lepton.cracked_sandstone": "Arenisca agrietada",
-	"block.lepton.cracked_red_sandstone": "Arenisca rojiza agrietada",
-	"block.lepton.cracked_sandstone_slab": "Baldosa de arenisca agrietada",
-	"block.lepton.cracked_red_sandstone_slab": "Baldosa de arenisca rojiza agrietada",
-	"block.lepton.cracked_sandstone_stairs": "Escaleras de arenisca agrietada",
-	"block.lepton.cracked_red_sandstone_stairs": "Escaleras de arenisca rojiza agrietada",
-	"block.lepton.cracked_sandstone_wall": "Pared de arenisca agrietada",
-	"block.lepton.cracked_red_sandstone_wall": "Pared de arenisca rojiza agrietada",
+	"block.lepton.cracked_sandstone": "Arenisca quebrada",
+	"block.lepton.cracked_red_sandstone": "Arenisca rojiza quebrada",
+	"block.lepton.cracked_sandstone_slab": "Baldosa de arenisca quebrada",
+	"block.lepton.cracked_red_sandstone_slab": "Baldosa de arenisca rojiza quebrada",
+	"block.lepton.cracked_sandstone_stairs": "Escaleras de arenisca quebrada",
+	"block.lepton.cracked_red_sandstone_stairs": "Escaleras de arenisca rojiza quebrada",
+	"block.lepton.cracked_sandstone_wall": "Pared de arenisca quebrada",
+	"block.lepton.cracked_red_sandstone_wall": "Pared de arenisca rojiza quebrada",
 
 	"block.lepton.acacia_wood_slab": "Baldosa de leño de acacia",
 	"block.lepton.birch_wood_slab": "Baldosa de leño de abedul",
@@ -37,7 +37,7 @@
 	"block.lepton.cracked_stone_brick_slab": "Baldosa de ladrillos de piedra quebrados",
 	"block.lepton.quartz_brick_slab": "Baldosa de ladrillos de cuarzo",
 	"block.lepton.cracked_nether_brick_slab": "Baldosa de ladrillos del Nether quebrados",
-	"block.lepton.cracked_polished_blackstone_brick_slab": "Baldosa de ladrillos de piedra negra pulida agrietada",
+	"block.lepton.cracked_polished_blackstone_brick_slab": "Baldosa de ladrillos de piedra negra pulida quebrados",
 	
 	"block.lepton.acacia_wood_stairs": "Escaleras de leño de acacia",
 	"block.lepton.birch_wood_stairs": "Escaleras de leño de abedul",
@@ -62,7 +62,7 @@
 	"block.lepton.cracked_stone_brick_stairs": "Escaleras de ladrillos de piedra quebrados",
 	"block.lepton.quartz_brick_stairs": "Escaleras de ladrillos de cuarzo",
 	"block.lepton.cracked_nether_brick_stairs": "Escaleras de ladrillos del Nether quebrados",
-	"block.lepton.cracked_polished_blackstone_brick_stairs": "Escaleras de ladrillos de piedra negra pulida agrietada",
+	"block.lepton.cracked_polished_blackstone_brick_stairs": "Escaleras de ladrillos de piedra negra pulida quebrados",
 	
 	"block.lepton.acacia_wood_wall": "Pared de leño de acacia",
 	"block.lepton.birch_wood_wall": "Pared de leño de abedul",
@@ -98,6 +98,6 @@
 	"block.lepton.cracked_stone_brick_wall": "Pared de ladrillos de piedra quebrados",
 	"block.lepton.quartz_brick_wall": "Pared de ladrillos de cuarzo",
 	"block.lepton.cracked_nether_brick_wall": "Pared de ladrillos del Nether quebrados",
-	"block.lepton.cracked_polished_blackstone_brick_wall": "Pared de ladrillos de piedra negra pulida agrietada"
+	"block.lepton.cracked_polished_blackstone_brick_wall": "Pared de ladrillos de piedra negra pulida quebrados"
 	
 }
