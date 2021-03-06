@@ -96,22 +96,22 @@ public class LeptonBlocks {
     public static final LeptonStairsBlock CRACKED_NETHER_BRICK_STAIRS = new LeptonStairsBlock(Blocks.CRACKED_NETHER_BRICKS.getDefaultState(), Settings.copy(Blocks.CRACKED_NETHER_BRICKS));
     public static final LeptonStairsBlock CRACKED_POLISHED_BLACKSTONE_BRICK_STAIRS = new LeptonStairsBlock(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS.getDefaultState(), Settings.copy(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
 
-    public static LeptonStairsBlock WHITE_CONCRETE_STAIR;
-    public static LeptonStairsBlock ORANGE_CONCRETE_STAIR;
-    public static LeptonStairsBlock MAGENTA_CONCRETE_STAIR;
-    public static LeptonStairsBlock LIGHT_BLUE_CONCRETE_STAIR;
-    public static LeptonStairsBlock YELLOW_CONCRETE_STAIR;
-    public static LeptonStairsBlock LIME_CONCRETE_STAIR;
-    public static LeptonStairsBlock PINK_CONCRETE_STAIR;
-    public static LeptonStairsBlock GRAY_CONCRETE_STAIR;
-    public static LeptonStairsBlock LIGHT_GRAY_CONCRETE_STAIR;
-    public static LeptonStairsBlock CYAN_CONCRETE_STAIR;
-    public static LeptonStairsBlock PURPLE_CONCRETE_STAIR;
-    public static LeptonStairsBlock BLUE_CONCRETE_STAIR;
-    public static LeptonStairsBlock BROWN_CONCRETE_STAIR;
-    public static LeptonStairsBlock GREEN_CONCRETE_STAIR;
-    public static LeptonStairsBlock RED_CONCRETE_STAIR;
-    public static LeptonStairsBlock BLACK_CONCRETE_STAIR;
+    public static LeptonStairsBlock WHITE_CONCRETE_STAIRS;
+    public static LeptonStairsBlock ORANGE_CONCRETE_STAIRS;
+    public static LeptonStairsBlock MAGENTA_CONCRETE_STAIRS;
+    public static LeptonStairsBlock LIGHT_BLUE_CONCRETE_STAIRS;
+    public static LeptonStairsBlock YELLOW_CONCRETE_STAIRS;
+    public static LeptonStairsBlock LIME_CONCRETE_STAIRS;
+    public static LeptonStairsBlock PINK_CONCRETE_STAIRS;
+    public static LeptonStairsBlock GRAY_CONCRETE_STAIRS;
+    public static LeptonStairsBlock LIGHT_GRAY_CONCRETE_STAIRS;
+    public static LeptonStairsBlock CYAN_CONCRETE_STAIRS;
+    public static LeptonStairsBlock PURPLE_CONCRETE_STAIRS;
+    public static LeptonStairsBlock BLUE_CONCRETE_STAIRS;
+    public static LeptonStairsBlock BROWN_CONCRETE_STAIRS;
+    public static LeptonStairsBlock GREEN_CONCRETE_STAIRS;
+    public static LeptonStairsBlock RED_CONCRETE_STAIRS;
+    public static LeptonStairsBlock BLACK_CONCRETE_STAIRS;
 
     // Vanilla Walls
     public static final Block STRIPPED_ACACIA_WOOD_WALL = new WallBlock(Settings.copy(Blocks.STRIPPED_ACACIA_WOOD));
@@ -257,22 +257,22 @@ public class LeptonBlocks {
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "cracked_polished_blackstone_brick_stairs"), CRACKED_POLISHED_BLACKSTONE_BRICK_STAIRS);
 
 
-        WHITE_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(), Settings.copy(Blocks.WHITE_CONCRETE)), "white_concrete_stair", "white_concrete");
-        ORANGE_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.ORANGE_CONCRETE.getDefaultState(), Settings.copy(Blocks.ORANGE_CONCRETE)), "orange_concrete_stair", "orange_concrete");
-        MAGENTA_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.MAGENTA_CONCRETE.getDefaultState(), Settings.copy(Blocks.MAGENTA_CONCRETE)), "magenta_concrete_stair", "magenta_concrete");
-        LIGHT_BLUE_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.LIGHT_BLUE_CONCRETE.getDefaultState(), Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)), "light_blue_concrete_stair", "light_blue_concrete");
-        YELLOW_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.YELLOW_CONCRETE.getDefaultState(), Settings.copy(Blocks.YELLOW_CONCRETE)), "yellow_concrete_stair", "yellow_concrete");
-        LIME_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.LIME_CONCRETE.getDefaultState(), Settings.copy(Blocks.LIME_CONCRETE)), "lime_concrete_stair", "lime_concrete");
-        PINK_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.PINK_CONCRETE.getDefaultState(), Settings.copy(Blocks.PINK_CONCRETE)), "pink_concrete_stair", "pink_concrete");
-        GRAY_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.GRAY_CONCRETE.getDefaultState(), Settings.copy(Blocks.GRAY_CONCRETE)), "gray_concrete_stair", "gray_concrete");
-        LIGHT_GRAY_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.LIGHT_GRAY_CONCRETE.getDefaultState(), Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)), "light_gray_concrete_stair", "light_gray_concrete");
-        CYAN_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.CYAN_CONCRETE.getDefaultState(), Settings.copy(Blocks.CYAN_CONCRETE)), "cyan_concrete_stair", "cyan_concrete");
-        PURPLE_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.PURPLE_CONCRETE.getDefaultState(), Settings.copy(Blocks.PURPLE_CONCRETE)), "purple_concrete_stair", "purple_concrete");
-        BLUE_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.BLUE_CONCRETE.getDefaultState(), Settings.copy(Blocks.BLUE_CONCRETE)), "blue_concrete_stair", "blue_concrete");
-        BROWN_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.BROWN_CONCRETE.getDefaultState(), Settings.copy(Blocks.BROWN_CONCRETE)), "brown_concrete_stair", "brown_concrete");
-        GREEN_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.GREEN_CONCRETE.getDefaultState(), Settings.copy(Blocks.GREEN_CONCRETE)), "green_concrete_stair", "green_concrete");
-        RED_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.RED_CONCRETE.getDefaultState(), Settings.copy(Blocks.RED_CONCRETE)), "red_concrete_stair", "red_concrete");
-        BLACK_CONCRETE_STAIR = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.BLACK_CONCRETE.getDefaultState(), Settings.copy(Blocks.BLACK_CONCRETE)), "black_concrete_stair", "black_concrete");
+        WHITE_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(), Settings.copy(Blocks.WHITE_CONCRETE)), "white_concrete_stairs", "white_concrete");
+        ORANGE_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.ORANGE_CONCRETE.getDefaultState(), Settings.copy(Blocks.ORANGE_CONCRETE)), "orange_concrete_stairs", "orange_concrete");
+        MAGENTA_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.MAGENTA_CONCRETE.getDefaultState(), Settings.copy(Blocks.MAGENTA_CONCRETE)), "magenta_concrete_stairs", "magenta_concrete");
+        LIGHT_BLUE_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.LIGHT_BLUE_CONCRETE.getDefaultState(), Settings.copy(Blocks.LIGHT_BLUE_CONCRETE)), "light_blue_concrete_stairs", "light_blue_concrete");
+        YELLOW_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.YELLOW_CONCRETE.getDefaultState(), Settings.copy(Blocks.YELLOW_CONCRETE)), "yellow_concrete_stairs", "yellow_concrete");
+        LIME_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.LIME_CONCRETE.getDefaultState(), Settings.copy(Blocks.LIME_CONCRETE)), "lime_concrete_stairs", "lime_concrete");
+        PINK_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.PINK_CONCRETE.getDefaultState(), Settings.copy(Blocks.PINK_CONCRETE)), "pink_concrete_stairs", "pink_concrete");
+        GRAY_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.GRAY_CONCRETE.getDefaultState(), Settings.copy(Blocks.GRAY_CONCRETE)), "gray_concrete_stairs", "gray_concrete");
+        LIGHT_GRAY_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.LIGHT_GRAY_CONCRETE.getDefaultState(), Settings.copy(Blocks.LIGHT_GRAY_CONCRETE)), "light_gray_concrete_stairs", "light_gray_concrete");
+        CYAN_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.CYAN_CONCRETE.getDefaultState(), Settings.copy(Blocks.CYAN_CONCRETE)), "cyan_concrete_stairs", "cyan_concrete");
+        PURPLE_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.PURPLE_CONCRETE.getDefaultState(), Settings.copy(Blocks.PURPLE_CONCRETE)), "purple_concrete_stairs", "purple_concrete");
+        BLUE_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.BLUE_CONCRETE.getDefaultState(), Settings.copy(Blocks.BLUE_CONCRETE)), "blue_concrete_stairs", "blue_concrete");
+        BROWN_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.BROWN_CONCRETE.getDefaultState(), Settings.copy(Blocks.BROWN_CONCRETE)), "brown_concrete_stairs", "brown_concrete");
+        GREEN_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.GREEN_CONCRETE.getDefaultState(), Settings.copy(Blocks.GREEN_CONCRETE)), "green_concrete_stairs", "green_concrete");
+        RED_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.RED_CONCRETE.getDefaultState(), Settings.copy(Blocks.RED_CONCRETE)), "red_concrete_stairs", "red_concrete");
+        BLACK_CONCRETE_STAIRS = generator.block.registerConcreteStairBlock(new LeptonStairsBlock(Blocks.BLACK_CONCRETE.getDefaultState(), Settings.copy(Blocks.BLACK_CONCRETE)), "black_concrete_stairs", "black_concrete");
 
 
         // Vanilla Walls

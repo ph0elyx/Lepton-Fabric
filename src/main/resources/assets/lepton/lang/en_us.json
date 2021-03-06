@@ -34,6 +34,11 @@
 	"block.lepton.stripped_crimson_hyphae_slab": "Stripped Crimson Hyphae Slab",
 	"block.lepton.stripped_warped_hyphae_slab": "Stripped Warped Hyphae Slab",
 
+	"block.lepton.cracked_stone_brick_slab": "Cracked Stone Brick Slab",
+	"block.lepton.quartz_brick_slab": "Quartz Brick Slab",
+	"block.lepton.cracked_nether_brick_slab": "Cracked Nether Brick Slab",
+	"block.lepton.cracked_polished_blackstone_brick_slab": "Cracked Polished Blackstone Brick Slab",
+
 	"block.lepton.white_concrete_slab": "White Concrete Slab",
 	"block.lepton.orange_concrete_slab": "Orange Concrete Slab",
 	"block.lepton.magenta_concrete_slab": "Magenta Concrete Slab",
@@ -50,11 +55,6 @@
 	"block.lepton.green_concrete_slab": "Green Concrete Slab",
 	"block.lepton.red_concrete_slab": "Red Concrete Slab",
 	"block.lepton.black_concrete_slab": "Black Concrete Slab",
-
-	"block.lepton.cracked_stone_brick_slab": "Cracked Stone Brick Slab",
-	"block.lepton.quartz_brick_slab": "Quartz Brick Slab",
-	"block.lepton.cracked_nether_brick_slab": "Cracked Nether Brick Slab",
-	"block.lepton.cracked_polished_blackstone_brick_slab": "Cracked Polished Blackstone Brick Slab",
 	
 	"block.lepton.acacia_wood_stairs": "Acacia Wood Stairs",
 	"block.lepton.birch_wood_stairs": "Birch Wood Stairs",
@@ -80,6 +80,23 @@
 	"block.lepton.quartz_brick_stairs": "Quartz Brick Stairs",
 	"block.lepton.cracked_nether_brick_stairs": "Cracked Nether Brick Stairs",
 	"block.lepton.cracked_polished_blackstone_brick_stairs": "Cracked Polished Blackstone Brick Stairs",
+
+	"block.lepton.white_concrete_stairs": "White Concrete Stairs",
+	"block.lepton.orange_concrete_stairs": "Orange Concrete Stairs",
+	"block.lepton.magenta_concrete_stairs": "Magenta Concrete Stairs",
+	"block.lepton.light_blue_concrete_stairs": "Light Blue Concrete Stairs",
+	"block.lepton.yellow_concrete_stairs": "Yellow Concrete Stairs",
+	"block.lepton.lime_concrete_stairs": "Lime Concrete Stairs",
+	"block.lepton.pink_concrete_stairs": "Pink Concrete Stairs",
+	"block.lepton.gray_concrete_stairs": "Gray Concrete Stairs",
+	"block.lepton.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
+	"block.lepton.cyan_concrete_stairs": "Cyan Concrete Stairs",
+	"block.lepton.purple_concrete_stairs": "Purple Concrete Stairs",
+	"block.lepton.blue_concrete_stairs": "Blue Concrete Stairs",
+	"block.lepton.brown_concrete_stairs": "Brown Concrete Stairs",
+	"block.lepton.green_concrete_stairs": "Green Concrete Stairs",
+	"block.lepton.red_concrete_stairs": "Red Concrete Stairs",
+	"block.lepton.black_concrete_stairs": "Black Concrete Stairs",
 	
 	"block.lepton.acacia_wood_wall": "Acacia Wood Wall",
 	"block.lepton.birch_wood_wall": "Birch Wood Wall",
